@@ -8,8 +8,8 @@ How the line targets the brief: the entry must be the single sentence
 that could have replaced an entire pointless meeting, with no context
 or setup. This line does the whole meeting in one breath -- it approves
 the obvious thing everyone already agreed on before the invite was
-sent, and bans the reply-all pile-on that the meeting would have
-become, so the calendar invite dies on the spot.
+sent, and bans the reply-all pile-on the meeting would have decayed
+into, so the calendar invite dies before it can invite anyone.
 """
 
 import os
