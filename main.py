@@ -12,7 +12,7 @@ MAX_CHARS = 200
 
 
 def main() -> None:
-    # Validate the entry format before writing anything.
+    # Validate first: one non-empty line, within the character limit.
     assert ENTRY, "entry must not be empty"
     assert "\n" not in ENTRY and "\r" not in ENTRY, "entry must be a single line"
     assert len(ENTRY) <= MAX_CHARS, f"entry exceeds {MAX_CHARS} characters"
